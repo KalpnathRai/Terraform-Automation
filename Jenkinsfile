@@ -9,7 +9,7 @@ pipeline {
         )
     }
     stages {
-        stage('Checkout') {
+        stage('Cloning') {
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/KalpnathRai/Terraform-Automation.git']])
             }
@@ -41,4 +41,5 @@ pipeline {
         }
     }
 }
+
 
