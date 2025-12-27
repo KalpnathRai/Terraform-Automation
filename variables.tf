@@ -24,7 +24,7 @@ variable "tag_name" {
 } 
 variable "ami_id" { 
     description = "AMI for Ubuntu Ec2 instance" 
-    default     = "ami-07ffb2f4d65357b42" 
+    default     = "ami-03f9680ef0c07a3d1" 
 }
 variable "versioning" {
     type        = bool
@@ -49,4 +49,5 @@ variable "tags" {
         terraform   = "true"
     }
 }
+
 
