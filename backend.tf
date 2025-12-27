@@ -3,7 +3,8 @@ terraform {
     bucket = "kalp-minds-app-project-terraform-state"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "my-dynamodb-table"
+    use_lockfile = "my-dynamodb-table"
   }
 }
+
 
